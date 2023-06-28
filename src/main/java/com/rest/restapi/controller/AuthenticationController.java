@@ -3,6 +3,7 @@ package com.rest.restapi.controller;
 import com.rest.restapi.model.User;
 import com.rest.restapi.model.dto.AuthenticationRequestDto;
 import com.rest.restapi.security.jwt.JwtTokenProvider;
+import com.rest.restapi.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

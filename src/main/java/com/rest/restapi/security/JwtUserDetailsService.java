@@ -1,6 +1,9 @@
 package com.rest.restapi.security;
 
 import com.rest.restapi.model.User;
+import com.rest.restapi.security.jwt.JwtUser;
+import com.rest.restapi.security.jwt.JwtUserFactory;
+import com.rest.restapi.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
